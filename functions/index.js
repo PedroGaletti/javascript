@@ -19,7 +19,6 @@ const arrow = () => {
 }
 // Output: Arrow
 
-
 /*
 ---------- Argument keyword ----------
 
@@ -54,7 +53,7 @@ function add(x, y) {
 let sum = new add(2, 3)
 // Output: 5
 
-let add = (x, y) => console.log(x, y)
+let add_arrow_function = (x, y) => console.log(x, y)
 // Output: TypeError: add is not a constructor
 
 /*
@@ -84,7 +83,7 @@ But if you use arrow function then you don't need to bind.
 
 */
 
-class FullName {
+class ExampleFullName {
   constructor(name) {
     this.name = name
   }
@@ -94,7 +93,7 @@ class FullName {
   }
 }
 
-let fullname = new FullName("Pedro")
+let fullname = new ExampleFullName("Pedro")
 
 setTimeout(fullname.result, 2000) // Output: ""
 setTimeout(fullname.result.bind(fullname), 2000) // Output: Pedro
@@ -104,7 +103,7 @@ class FullName {
     this.name = name
   }
 
-  result = () => console(this.name)
+  result = () => console.log(this.name)
 }
 
 let arrowFullName = new FullName("Galetti")

@@ -16,6 +16,8 @@
 
 - [Functions](https://github.com/PedroGaletti/javascript/tree/main/functions/index.js) - How to define functions in JavaScript
 - [Loops](https://github.com/PedroGaletti/javascript/tree/main/loops/index.js) - How to use the loops in JavaScript
+- [Object](https://github.com/PedroGaletti/javascript/tree/main/object/index.js) - How to work with object in JavaScript
+- [Spread](https://github.com/PedroGaletti/javascript/tree/main/spread/index.js) - How to use the spread operator in JavaScript
 
 ## Hacker Rank Exercises
 
@@ -40,7 +42,7 @@
 
 - [JavaScript Algorithms](https://github.com/trekhleb/javascript-algorithms) - You can check examples of many popular algorithms and data structures.
 - [Clean Code With JavaScript](https://github.com/ryanmcdermott/clean-code-javascript) - Principles of clean code applicated in JavaScript.
-- [JavaScript Questions](https://github.com/lydiahallie/javascript-questions) - More than 150+ questions and answers, with a lot of complexity like simple to advanced level.
+- [JavaScript Questions](https://github.com/lydiahallie/javascript-questions) - More than 150+ questions and answers, with complexity like simple to advanced level.
 - [Know JavaScript](https://github.com/getify/You-Dont-Know-JS) - Books diving depp into the JavaScript.
 
 ## How to use
@@ -48,7 +50,7 @@
 I'm using node to run JavaScript in the terminal, so to use and see the things that I implemented, it's necessary to run the following command:
 
 ```
-node ${folder/index.js}
+node ${folder}/index.js
 ```
 
 Like:
