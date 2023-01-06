@@ -2,9 +2,7 @@
 
 /*
 ---------- Ways two define functions ----------
-
 Using the function keyword or using a arrow
-
 */
 
 // Nomal function
@@ -21,9 +19,7 @@ const arrow = () => {
 
 /*
 ---------- Argument keyword ----------
-
 You cannot use argument keyword inside arrow functions
-
 */
 
 // Regular function
@@ -42,9 +38,7 @@ const arrowFunction = (a, b) => {
 
 /*
 ---------- New keyword ----------
-
 Regular functions are constructible, they can be called using the new keyword but not arrow functions
-
 */
 
 function add(x, y) {
@@ -58,9 +52,7 @@ let add_arrow_function = (x, y) => console.log(x, y)
 
 /*
 ---------- This keyword ----------
-
-inside regular function this is equal to the execution context, this could be global object, an object that owns the method or itself if using the new keyword
-
+Inside regular function this is equal to the execution context, this could be global object, an object that owns the method or itself if using the new keyword
 */
 
 var name = "Pedro"
@@ -76,11 +68,9 @@ object.regularFunc() // Output: Galetti
 
 /*
 ---------- Method ----------
-
 You can define methods in class using regular function.
 But if you apply this method as a callback you need to bind it first.
 But if you use arrow function then you don't need to bind.
-
 */
 
 class ExampleFullName {
